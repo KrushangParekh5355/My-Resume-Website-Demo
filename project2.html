@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Q-Learning for Lunar Landing</title>
+    
+    <!--=============== FAVICON ===============-->
+    <link rel="icon" class="k-icon-title" type="image/x-icon" href="assests/img/K-icon-light-img.jpg">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        main {
+            /* max-width: 800px;
+            margin: 0 auto; */
+            padding: 20px;
+        }
+        h1 {
+            color: #fff;
+            margin: 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .lunarlander-video {
+            margin-top: 20px;
+            width: 50rem;
+            align-items: center;
+        }
+        .subtitle {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        video {
+            width: 100%;
+        }
+        section {
+            margin-top: 40px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #555;
+        }
+
+        .link-portion{
+            padding-bottom: 7rem;
+        }
+
+        .lander{
+            align-items: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deep Q-Learning for Lunar Landing</h1>
+    </header>
+    <main>
+        <p>
+            Developing neural networks entirely from scratch to facilitate 
+            the training of an agent across a diverse array of more than 200 
+            unique scenarios. Employing sophisticated Deep Q-Learning 
+            methodologies, which encompass leveraging the renowned Belleme 
+            Equation, renowned for its efficacy in tackling complex problems.
+            Additionally, integrating Experience Replay into the framework 
+            to expedite the agent's learning process and enhance its capacity 
+            for understanding nuanced environments. Furthermore, utilizing
+            Gymnasium Libraries to visualize and interpret the outcomes, thereby 
+            enabling comprehensive analysis and optimization of the agent's 
+            performance.
+        </p>
+        <div class="lunarlander-video">
+            <h2 class="subtitle">Check out the remarkable final outcomes achieved:</h2>
+            
+            <div class="lander">
+                <video controls>
+                    <source src="assests/img/lunarLander-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <section>
+            <div class="link-portion">
+                <h2>Check out the code on Google Colab</h2>
+                <p>
+                    Dive deeper into the implementation details and explore the code behind
+                    our Deep Q-Learning for Lunar Landing project on Google Colab. Gain insights
+                    into the neural network architecture, training process, and optimization strategies.
+                    <br><br>
+                    This comprehensive code repository provides a valuable resource for understanding
+                    the intricacies of our approach and experimenting with variations to further enhance
+                    the agent's performance. Take advantage of the interactive nature of Google Colab
+                    to tweak parameters, visualize results, and expand upon our research findings.
+                </p>
+            <a href="https://colab.research.google.com/drive/1PLeEdsSzIb7DVj6N79aB3OdJ4x2WBGOG?authuser=2#scrollTo=LbZcI9ZXHl3a" target="_blank" class="cta-button">Google Colab Link</a>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Krushang. All rights reserved.</p>
+    </footer>
+</body>
+</html>

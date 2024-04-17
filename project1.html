@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Home Automation</title>
+
+    <!--=============== FAVICON ===============-->
+    <link rel="icon" class="k-icon-title" type="image/x-icon" href="assests/img/K-icon-light-img.jpg">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assests/css/project1Styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Secure Home Automation</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Executive Summary</h2>
+
+                <p>My college capstone project, "Secure Home Automation," was 
+                    a collaborative effort with three classmates. This sophisticated setup integrated a wide array of sensors, such 
+                    as vibration sensors for windows, ultrasonic sensors for lighting, 
+                    RFID900 for door access, and temperature sensors for climate control.
+                </p>
+                
+                <br><br>
+
+                <div class="p1_cards-container">
+                <div class="p1-card">
+                    <h2>Utilized Raspbian OS and various components including</h2>
+                    <p>
+                        <ul>
+                            <li>Accelerometer Sensor MPU6050</li>
+                            <li>Piezo speaker</li>
+                            <li>ESP32</li>
+                            <li>RFID Sensor</li>
+                            <li>Ultrasonic Sensor</li>
+                            <li>Temperature Sensor</li>
+                        </ul>
+    
+                    </p>
+                </div>
+
+                <div class="p1-card">
+                    <h2>Developed an advanced system capable of</h2>
+                    <p>
+                        <ul>
+                            <li>Detecting glass breakage</li>
+                            <li>Integrated a wide array of sensors such as:
+                                <ul>
+                                    <li>Vibration sensors for windows</li>
+                                    <li>Ultrasonic sensors for lighting</li>
+                                    <li>RFID900 for door access</li>
+                                    <li>Temperature sensors for climate control</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="p1-card">
+                    <h2>Created a bespoke Android application with features including:</h2>
+                    <p>
+                        <ul>
+                            <li>Card management</li>
+                            <li>Door control</li>
+                            <li>Lighting adjustments</li>
+                            <li>Temperature regulation</li>
+                            <li>Window testing</li>
+                        </ul>    
+                    </p>
+                </div>
+
+                <div class="p1-card">
+                    <h2>Showcased proficiency in:</h2>
+                    <p>
+                        <ul>
+                            <li>Smart systems</li>
+                            <li>Sensor integration</li>
+                            <li>User-centric design</li>
+                            <li>Custom PCB design</li>
+                            <li>Integration of IoT devices</li>
+                            <li>Security protocols and encryption methods</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <br><br><br><br><br><br>
+        <h2>Project Images</h2>
+        <div class="p1_image-container">
+            <div class="p1_main__view" id="previewImgModel">
+                <img src="assests/img/capstoneProjectOverview.png" id="img-main" alt="Design Approach Image">
+
+                                <!-- The Modal -->
+                <div id="projectImageModel" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="project-modal-content" id="previewEnlargeImg">
+                    <div id="caption"></div>
+                </div>
+                <p id="image-caption" style="text-align: center; font-weight: bolder;">Design Approach Image</p> 
+            </div>
+            <div class="side_view">
+                <img src="assests/img/capstoneProjectOverview.png" onclick="changeImg(this.src, 'Design Approach Image')" alt="Design Approach Image">
+                <img src="assests/img/schematicDesign-img.png" onclick="changeImg(this.src,'Schematics Design Image')" alt="Schematics Design Image">
+                <img src="assests/img/schematicOverview-img.png" onclick="changeImg(this.src,'Schematic overview design')" alt="Schematic overview design">
+                <img src="assests/img/securehomeautomationposter-img.png" onclick="changeImg(this.src,'Project Poster')" alt="Project Poster" >
+            </div>
+        </div>
+
+        <section>
+            <h2><i class="ri-google-play-line"></i> Download on Google Play</h2>
+            <p>Experience the power of secure home automation with our intuitive 
+                Android app. Control your home's security, lighting, temperature,
+                and more, all from the palm of your hand. Download now and elevate
+                your living experience.</p>
+            <a href="https://play.google.com/store/apps/details?id=ca.future.home.it.secure.home.automation&pli=1" target="_blank" class="cta-button">Download on <img src="assests/img/google-play-img.png" class="google-play" alt=""></a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Krushang. All rights reserved.</p>
+    </footer>
+
+    <script src="assests/js/main.js"></script>
+</body>
+</html>

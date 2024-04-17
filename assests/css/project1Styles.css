@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 29rem; */
+    /* height: 100vh; */
+    /* overflow: hidden; */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 30px;
+    
+}
+
+h2 {
+    color: #000000; /* Changed header text color */
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.p1__image-container{
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.p1_main__view{
+    width: 80%;
+    height: 25rem;
+    
+}
+
+.p1_main__view img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.8s ease; /* Smooth transition */
+    
+}
+
+.p1_main__view img:hover{
+    transform: scale(1.05); /* Increase the scale to zoom in a little */
+    transition: transform 0.8s ease; /* Smooth transition */
+}
+
+.side_view{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.side_view img{
+    width: 10rem;
+    height: 7rem;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 05rem;
+}
+
+.p1_cards-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.p1-card {
+    width: 45%;
+    padding: 20px;
+    margin: 20px 0;   
+    border: 1px solid #ccc;
+    border-radius: 3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.8s ease; /* Smooth transition */
+}
+
+.p1-card:hover{
+    transform: scale(1.04); /* Increase the scale to zoom in a little */
+    transition: transform 0.8s ease; /* Smooth transition */
+}
+.p1-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.p1-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+} 
+
+.google-play{
+    width: 1rem;
+    height: 1rem;
+    padding-left: .2rem;
+    margin-top: .1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

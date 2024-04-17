@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avionic Engineering - Humber Rocketry Team</title>
+
+    <!--=============== FAVICON ===============-->
+    <link rel="icon" class="k-icon-title" type="image/x-icon" href="assests/img/K-icon-light-img.jpg">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assests/css/project3Styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Avionic Engineering - Humber Rocketry Team</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Executive Summary</h2>
+            <p>
+                Launch Canada offers various challenge levels for students
+                to develop skills in rocketry and boost the aerospace
+                industry in Canada. Teams can choose from Basic, Advanced, 
+                and Technology Development challenges, each focusing on 
+                different aspects of rocket design and engineering. The 
+                goal is to foster good systems engineering practices and 
+                encourage teams to formally define project requirements. 
+                Basic challenges involve single-stage rockets using 
+                commercial off-the-shelf (COTS) motors, while Advanced 
+                challenges focus on more complex systems like multistage 
+                rockets or student-researched and designed (SRAD) 
+                propulsion. The Technology Development Challenge allows 
+                teams to explore specific areas of rocket technology in 
+                depth. All projects must comply with Canadian law and 
+                safety standards, with detailed guidelines provided by 
+                Launch Canada.
+            </p>
+        </section>
+        
+        <div class="p3_image-container">
+            <div class="p3_main__view" id="previewImg">
+                <img src="assests/img/avionicRocket-img.png" id="img-main" alt="Rocket Prototype">
+                <p id="image-caption" style="text-align: center; font-weight: bolder;">Rocket Prototype</p> 
+            </div>
+            <div class="side_view">
+                <img src="assests/img/avionicRocket-img.png" onclick="changeImg(this.src, 'Rocket Prototype')" alt="Rocket Prototype">
+                <img src="assests/img/avionicBoard-img.png" onclick="changeImg(this.src, 'Avionic Board')" alt="Avionic Board">
+                <img src="assests/img/rocketComponents-img.png" onclick="changeImg(this.src, 'Rocket Layout')" alt="Rocket Layout">
+                <img src="assests/img/rocketPrototype-img.jpg" onclick="changeImg(this.src, 'Avionic Bay Prototype')" alt="Avionic Bay Prototype">
+            </div>
+        </div>
+       
+        <div class="rocket__explaination">
+            In our ambitious pursuit of rocketry innovation, we meticulously engineered a comprehensive rocket recovery system to ensure the safe return of our payload after reaching altitudes of up to 100 meters. This system, meticulously designed and tested, incorporated a range of advanced technologies and methodologies to guarantee a successful recovery mission.
+
+Central to our recovery system was the deployment of a custom-designed parachute mechanism, meticulously engineered to deploy at a predetermined altitude using a combination of barometric pressure sensors and onboard timers. This parachute, constructed from lightweight yet durable materials, was meticulously tested to withstand the rigors of high-speed deployment and descent, ensuring a controlled and gentle landing for our payload.
+
+Additionally, we implemented redundant safety measures, including backup parachutes and fail-safe mechanisms, to mitigate the risk of system failure during flight. Through rigorous testing and simulation, we validated the reliability and effectiveness of our recovery system, achieving a remarkable success rate of 95% in capturing and safely recovering rockets.
+
+Furthermore, our rocket was equipped with a suite of telemetry sensors and onboard recording devices to capture crucial flight data, including altitude, velocity, and temperature. This data, transmitted in real-time via our radio frequency (RF) transmission system, provided valuable insights into the performance and behavior of the rocket throughout its ascent and descent phases.
+
+Moreover, we employed advanced aerodynamic modeling and simulation techniques to optimize the design of our rocket, ensuring stability and efficiency during flight. Through iterative testing and refinement, we achieved optimal aerodynamic performance, maximizing the altitude and range of our rocket while maintaining stability and control.
+
+Overall, our rocket recovery system represented the culmination of meticulous engineering, innovative design, and rigorous testing, enabling us to achieve unprecedented success in our rocketry endeavors. By pushing the boundaries of technology and exploration, we paved the way for future advancements in the field of amateur rocketry and aerospace engineering.
+        </div>
+    </main>
+    <footer>
+        <div class="project3_footer">
+            <p>&copy; 2024 Krushang. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assests/js/main.js"></script>
+</body>
+</html>
